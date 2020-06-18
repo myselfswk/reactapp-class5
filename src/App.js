@@ -8,8 +8,10 @@ function App() {
 
   return (
     <CounterContext.Provider value={countState}>
-      <div>
-        <Parent />
+      <div className="App">
+        <div className="App-header">
+          <Parent />
+        </div>
       </div>
     </CounterContext.Provider>
   )
